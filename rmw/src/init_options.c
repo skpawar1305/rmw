@@ -26,7 +26,7 @@ rmw_init_options_t
 rmw_get_zero_initialized_init_options(void)
 {
   return (const rmw_init_options_t) {
-           .domain_id = RMW_DEFAULT_DOMAIN_ID,
+           .domain_id = 112,
            .localhost_only = RMW_LOCALHOST_ONLY_DEFAULT,
            .implementation_identifier = NULL,
            .impl = NULL,
